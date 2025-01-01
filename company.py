@@ -1,7 +1,24 @@
 import streamlit as st
 import json
 import os
+# Title and description
+st.markdown("""
+    <div style="background-color: #2ECC40; padding: 10px; border-radius: 5px; color: white;">
+        <h1>Data Analytics with Python</h1>
+    </div>
+""", unsafe_allow_html=True)
 
+st.markdown("""
+    <div style="background-color: #FF851B; padding: 10px; border-radius: 5px; color: white;">
+        An infographic displaying key Python libraries for data analytics.
+    </div>
+""", unsafe_allow_html=True)
+
+# Set background image
+import streamlit as st
+
+# Background image URL
+background_image_url = "https://raw.githubusercontent.com/ravindranath8/data-analysis/main/download%20(2).jpg"
 # Define a path for the saved data file
 DATA_FILE = 'community_data.json'
 
