@@ -8,7 +8,7 @@ import os
 import streamlit as st
 
 # Background image URL
-background_image_url = "https://raw.githubusercontent.com/ravindranath8/data-analysis/main/download%20(2).jpg"
+background_image_url = "https://github.com/ravindranath8/company_thought/blob/main/download%20(4).jpg"
 # Define a path for the saved data file
 
 
