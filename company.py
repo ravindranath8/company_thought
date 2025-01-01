@@ -7,9 +7,29 @@ import os
 # Set background image
 import streamlit as st
 
+import streamlit as st
+
 # Background image URL
-background_image_url = "https://github.com/ravindranath8/company_thought/blob/main/download%20(4).jpg"
-# Define a path for the saved data file
+background_image_url = "https://raw.githubusercontent.com/ravindranath8/company_thought/main/download%20(4).jpg"
+
+# Apply custom CSS to set background
+def set_background(image_url):
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background: url("{image_url}") no-repeat center fixed;
+            background-size: cover;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+set_background(background_image_url)
+
+
+
 
 
 DATA_FILE = 'community_data.json'
